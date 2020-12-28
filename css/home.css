@@ -22,18 +22,22 @@
         }
 .home{
     width: 1140px;
-    margin-left:25px;
-    margin-bottom:10px;
+    
+    
+    
     
     }
 
 /*header*/
 .home header{
 background-color:orangered;
-width: 100%;
-margin-top: 10px;
+width:100%;
+
 padding: 20px;
 overflow:hidden ;
+position:fixed;
+z-index: 1;
+top:0px;
 
 }
 .home header img{
@@ -57,10 +61,11 @@ overflow:hidden ;
 
 /*main*/
 .home main{
-
+margin-top:100px;
     float:left;
     background-color: white;
     width: 800px;
+    position: relative;
 }
 /*secciones productos*/
 .home main section{
@@ -68,6 +73,20 @@ overflow:hidden ;
     width: 380px;
     margin:10px;
     float:left;
+    }
+    .home main section img.icon{
+        width: 60px;
+        position:absolute;
+        right:20px;
+    
+
+    }
+    .home main section img.icon2{
+        width: 60px;
+        position:absolute;
+        right:420px;
+    
+
     }
     .home main section img{
 
@@ -102,6 +121,7 @@ overflow:hidden ;
             float:right;
             width: 320px;
               background-color: white;
+              margin-top:100px;
         }
 
         .home aside section h2{
@@ -124,7 +144,15 @@ overflow:hidden ;
     background-color: white;
     border:1px solid skyblue;
     padding: 10px;
+    position:relative;
 }
+.home aside section article img.iconp{
+position: absolute;
+width: 50px;
+right: 5px;
+top:0px;
+}
+
 .home aside section article a{
     color:black;
     text-transform: none;
